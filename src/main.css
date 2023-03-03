@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,500&display=swap');
+
+:root{
+    --brand-colour: #dcb000;
+    --max-width:1800px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.highlight{
+    color: var(--brand-colour);
+}
+
+nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #111;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    max-width: var(--max-width);
+}
+
+nav ul li{
+    padding: 20px;
+    display: flex;
+}
+
+nav ul li:last-of-type{
+    margin-left: 500px;
+}
+
+.test{
+    background-image: url('images/sea.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.test h1{
+    font-size: 50px;
+    color:#051625;
+    justify-content: center;
+}
+
+.main-content{
+    width:var(--max-width);
+    display: flex;
+    margin: auto;
+}
+
+.main-content > div{
+    width: 100%;
+}
+
+.columns{
+    background-color: beige;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.columns img{
+    width: 100%;
+}
+
+.columns .col{
+    padding: 100px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+
+.columns div{
+    font-size: 40px;
+    color: #2f5d82; 
+}
