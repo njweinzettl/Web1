@@ -9,6 +9,7 @@
     import Header from '$lib/header.svelte';
     import Navigation from '$lib/navigation.svelte'; //importing a component
     import Footer from '../lib/footer.svelte';
+    import Tags from '../lib/tags.svelte';
 </script>
 
 <Navigation /> 
@@ -19,5 +20,7 @@
 <div> 
     <slot /> <!-- page specific content -->
 </div>
+
+<Tags />
 
 <Footer />
