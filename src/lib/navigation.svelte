@@ -1,3 +1,5 @@
+<!-- we put the nav into a component because you write it once and can use it in several places -->
+
 <nav>
     <ul>
         <li>Home</li>
@@ -11,31 +13,25 @@
 <style>
     nav{
         position: fixed;
-        top:0;
-        left: 0;
+        top: 120px;
+        left: 40px;
         right: 0;
         color: white;
         display: flex;
-        justify-content: center;
+        justify-content: left;
         width: 100%;
-        background: #111;
     }
 
     nav ul{
         list-style: none;
         margin: 0;
         padding: 0;
-        display: flex;
         max-width: var(--max-width);
+        display: grid;
     }
 
     nav ul li{
         padding: 20px;
         display: flex;
     }
-
-    nav ul li:last-of-type{
-        margin-left: 500px;
-    }
-
 </style>

@@ -1,3 +1,6 @@
+<title>Nadja Weinzettl</title>
+
+<!-- making a word change every second in a text -->
 <script>
     let words = "best page";
     let wordsarray = [

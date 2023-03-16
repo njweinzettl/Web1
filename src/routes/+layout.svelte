@@ -12,10 +12,9 @@
     import Tags from '../lib/tags.svelte';
 </script>
 
-<Navigation /> 
-<!-- we put the nav into a component because you write it once and can use it in several places -->
 
 <Header /> 
+<Navigation />
 
 <div> 
     <slot /> <!-- page specific content -->
